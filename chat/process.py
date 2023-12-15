@@ -10,7 +10,7 @@ class Command(BaseCommand):
 
     async def video_processing(self, websocket):
         # Open the video stream (replace 'your_mpeg_url' with the actual MPEG URL)
-        cap = cv2.VideoCapture('your_mpeg_url')
+        cap = cv2.VideoCapture('196.168.x.x')
 
         while True:
             ret, frame = cap.read()
